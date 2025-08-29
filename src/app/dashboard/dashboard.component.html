@@ -1,0 +1,6 @@
+ <mat-toolbar color="primary" class="toolbar">
+    <span class="custom-tab" [routerLink]="'/list'">List</span>
+      <button mat-button (click)="logout()">Logout</button>
+    </mat-toolbar>
+    <h1>Welcome to the Dashboard!</h1>
+    <p>User: {{ userInfo }}</p>

@@ -1,0 +1,16 @@
+mat-toolbar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.custom-tab {
+  padding: 8px 24px;
+  background: rgb(44 50 82 / 87%);
+  color: #1976d2;
+  border-radius: 4px 4px 0 0;
+  font-weight: 500;
+  margin-right: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  cursor: pointer;
+  min-width: 64px;
+}
